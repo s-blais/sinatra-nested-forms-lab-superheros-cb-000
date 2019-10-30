@@ -8,5 +8,10 @@ class App < Sinatra::Base
       erb :super_hero
     end
 
+    post '/teams' do
+      #new objects created here and assigned to variables
+      erb :team
+    end
+
 
 end
