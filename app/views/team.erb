@@ -1,5 +1,5 @@
 <h1><%= @team.name %></h1>
-<h2><%= @team.motto %></h2>
+<h2>Team Motto: <%= @team.motto %></h2>
 
 <% @members.each.with_index(1) do |member, index| %>
   <h2>Hero <%= index %> Name: <%= member.name %></h2>
